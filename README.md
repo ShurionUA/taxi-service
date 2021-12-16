@@ -1,8 +1,7 @@
 # Taxi service
 #### Current web app designed to simulate taxi service. Using this app you can:
 -	Register new drivers
--	Add new manufacturer of cars
--	Add new cars
+-	Add new manufacturer of cars, add new cars
 -	Delete cars, drivers, manufacturers (access on the “Display All Items” pages)
 -	Assigning an existing driver to one or more cars
 -	Get all information about drivers or cars, or manufacturers.
