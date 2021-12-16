@@ -1,6 +1,6 @@
 # Taxi service
-#### Current web app designed to simulate taxi service of storage data, such as drivers, cars, manufacturers of cars. Using this app you can:
--	Register new drivers, including login and password to access DB;
+#### Current web app designed to simulate taxi service. Using this app you can:
+-	Register new drivers
 -	Add new manufacturer of cars
 -	Add new cars
 -	Delete cars, drivers, manufacturers (access on the “Display All Items” pages)
@@ -12,22 +12,22 @@
 -	Application layer(services)
 -	Presentation layer(controllers)
 ### DB schema of tables:
-![diagram_db](http://joxi.ru/ZrJ3VRdhbGbBpm.jpg)
+<img src="http://joxi.ru/ZrJ3VRdhbGbBpm.jpg">
+
 ### Using Technologies:
--	Apache Tomcat (v9.0.56)
+-	Tomcat (v9.0.56)
 -	MySQL(v8.0.22)
 -	JDBC
 -	Javax.servlet(v4.0.1)
 -	JSP
 -	JSTL(v1.2)
--	Apache log4j(v2.14.1)
--	Apache Maven(v3.3.2)
--	Apache Maven Checkstyle Plugin(v3.1.1)
+-	log4j(v2.14.1)
+-	Maven(v3.3.2)
 -	HTML
 ### Steps for setup:
-- Configure Apache Tomcat for your IDE
-- Install MySQL, MySQL Workbench
-- Launch MySQL Workbench and run script from file “resources/init_db.sql”
-- In “src/main/java/taxi/util/ConnectionUtil” change URL, USERNAME, PASSWORD and JDBC DRIVER with your data
-- In “src/main/resources/log4j2.xml” change path to log file <File name="LogToFile" fileName="_______">
-- After starting tomcat go to http://localhost:your_port that you specified while configuring tomcat. 
+1. Configure Apache Tomcat for your IDE
+2. Install MySQL, MySQL Workbench
+3. Launch MySQL Workbench and run script from file “resources/init_db.sql”
+4.- Change URL, USERNAME, PASSWORD and JDBC DRIVER on your data in “src/main/java/taxi/util/ConnectionUtil”
+5.- Change path to log file <File name="LogToFile" fileName="_______"> in “src/main/resources/log4j2.xml”
+6. After starting tomcat go to http://localhost:your_port that you specified while configuring tomcat. 
