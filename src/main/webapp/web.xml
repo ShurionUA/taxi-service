@@ -35,11 +35,11 @@
 
     <servlet>
         <servlet-name>mycars</servlet-name>
-        <servlet-class>taxi.controller.GetMyCurrentCarsController</servlet-class>
+        <servlet-class>taxi.controller.car.GetMyCurrentCarsController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>mycars</servlet-name>
-        <url-pattern>/drivers/mycars</url-pattern>
+        <url-pattern>/drivers/cars</url-pattern>
     </servlet-mapping>
 
     <servlet>
